@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fdfbf4;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(300px, 1fr) );
+    place-items: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+
+#sideImage {
+    margin-top:30px;
+    width: 350px;
+    margin-right:15px;
+}
+#Headings {
+    margin-right:15px;
+    margin-right:15px;
+
+}
+#mainHeader {
+    color:#F2CF61;
+    font-size: 48px;
+}
+#secondaryHeader {
+    color: #444d52;
+    margin: 3px 6px;
+}
